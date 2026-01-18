@@ -17,6 +17,23 @@ Alternativ findest du alle veröffentlichten Versionen unter:
 
 ---
 
+## ⚠️ WICHTIG: Backup vor jeder Installation
+
+Da für die Installation der APK die bisherige Store-Version in der Regel **deinstalliert** werden muss, ist ein **Backup der App-Datenbank zwingend erforderlich**, wenn du keine Daten verlieren möchtest.
+
+Bitte gehe **vor jeder APK-Installation** wie folgt vor:
+
+1. Aktuelle App öffnen  
+2. Zu **Einstellungen → Datenbankeinstellungen** wechseln  
+3. **„Datenbank exportieren“** auswählen  
+4. **Wichtig:**  
+   - Wähle einen **lokalen Speicherort** (z. B. interner Gerätespeicher oder lokaler Ordner)  
+   - **Keine Cloud-Speicher** wie Google Drive, OneDrive, Dropbox etc. verwenden
+
+Erst wenn das Backup erfolgreich erstellt wurde, solltest du die alte App deinstallieren und die neue APK installieren.
+
+---
+
 ## 🛠 Installation der APK (Android)
 
 1. APK-Datei auf dein Android-Gerät laden  
