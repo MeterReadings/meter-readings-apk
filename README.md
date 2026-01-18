@@ -15,7 +15,7 @@ Die jeweils **aktuellste stabile Version** der App kannst du hier herunterladen:
 
 Alternativ findest du alle veröffentlichten stabilen Versionen unter:
 
-- 👉 **[Releases-Übersicht (Stable)](https://github.com/MeterReadings/meter-readings-apk/releases)**
+- 👉 **[Releases-Übersicht](https://github.com/MeterReadings/meter-readings-apk/releases)**
 
 Die Datei im neuesten Release heißt immer:
 
@@ -125,7 +125,7 @@ You can always download the **latest stable version** of the app here:
 
 ➡️ **[Download latest stable APK](https://github.com/MeterReadings/meter-readings-apk/releases/latest/download/MeterReadings-latest.apk)**
 
-You can find all published stable versions here:
+You can find all published versions here:
 
 - 👉 [Stable releases overview](https://github.com/MeterReadings/meter-readings-apk/releases)
 
