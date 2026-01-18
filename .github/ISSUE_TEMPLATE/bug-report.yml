@@ -1,62 +1,50 @@
-name: 🐞 Bug
-title: "[BUG] Kurze Zusammenfassung"
-description: Melde einen Fehler in der App „Zählerstände“
-labels: ["bug", "to verify"]
+name: 🐞 Bug Report
+title: '[BUG] <title>'
+description: File a bug report
+labels: ["bug"]
 assignees: []
+
 body:
   - type: textarea
     id: description
     attributes:
-      label: Beschreibung
-      description: Beschreibe den Fehler möglichst genau. Du kannst auch Screenshots/Videos anhängen.
-      placeholder: Was ist genau falsch?
+      label: Description
+      description: Detailed description of the issue that you're seeing. You can add screenshots and videos as well
+      placeholder: What is wrong?
     validations:
       required: true
 
   - type: textarea
-    id: repro-steps
+    id: steps-to-reproduce
     attributes:
-      label: Schritte zum Reproduzieren
-      description: Liste alle Schritte auf, mit denen sich der Fehler nachstellen lässt.
+      label: Steps to Reproduce
+      description: Describe all the steps to show the behavior that you have observed.
       placeholder: |
-        1. ...
-        2. ...
-        3. ...
+        1. Open the app
+        2. Go to "Meters" and select meter X
+        3. Tap on "Add reading"
+        4. Enter a value and tap "Save"
+        5. The app crashes / an error message appears: "Could not save reading"
     validations:
       required: true
 
   - type: dropdown
     id: platforms-affected
     attributes:
-      label: Betroffene Plattform(en)
-      description: Wähle alle Plattformen aus, auf denen der Fehler auftritt.
+      label: Affected platform(s)
+      description: Where are you seeing this issue?
       multiple: true
       options:
         - Android
         - iOS
-        - Konnte auf anderen Plattformen nicht testen
     validations:
       required: true
-
-  - type: input
-    id: app-version
-    attributes:
-      label: App-Version
-      description: Zu finden in der App unter Einstellungen → App → Version (z. B. 3.2.209)
-      placeholder: 3.2.209
-    validations:
-      required: true
-
-  - type: input
-    id: device
-    attributes:
-      label: Gerät / Modell
-      description: z. B. „Pixel 7, Samsung S23, iPhone 14 …“
-      placeholder: Gerät und Modell
 
   - type: textarea
-    id: workaround
+    id: app-version
     attributes:
-      label: Workaround
-      description: Falls du einen vorübergehenden Workaround gefunden hast, beschreibe ihn hier.
-      placeholder: Optional – falls vorhanden
+      label: App version (optional)
+      description: If you know it, please enter the app version (e.g. 3.2.210).
+      placeholder: 3.2.210
+    validations:
+      required: false
