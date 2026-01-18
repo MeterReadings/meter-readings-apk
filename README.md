@@ -19,11 +19,11 @@ Alternativ findest du alle veröffentlichten Versionen unter:
 
 ## ⚠️ WICHTIG: Backup vor jeder Installation
 
-Da für die Installation der APK die bisherige Store-Version in der Regel **deinstalliert** werden muss, ist ein **Backup der App-Datenbank zwingend erforderlich**, wenn du keine Daten verlieren möchtest.
+Da für die Installation der APK die bisherige Version in der Regel **deinstalliert** werden muss, ist ein **Backup der App-Datenbank zwingend erforderlich**, wenn du keine Daten verlieren möchtest.
 
 Bitte gehe **vor jeder APK-Installation** wie folgt vor:
 
-1. Aktuelle App öffnen  
+1. App öffnen  
 2. Zu **Einstellungen → Datenbankeinstellungen** wechseln  
 3. **„Datenbank exportieren“** auswählen  
 4. **Wichtig:**  
